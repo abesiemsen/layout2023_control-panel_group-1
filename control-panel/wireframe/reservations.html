@@ -127,8 +127,6 @@
                                     <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
                                   </svg>
 
-                               
-
                                     <span class="ms-1 d-none d-md-block d-sm-inline">Notifications</span>
                                 </a>
                             </li>
@@ -137,8 +135,177 @@
 
                     </div>
                 </div>
+
+                
                                     <!-- ADD FOOTER -->
             <div class="col p-0">
+                <h1 class="m-4">Reservation Look-Up</h1>
+                <!-- Reservation Look-Up-->
+                    <!-- Search Form -->
+                    <form class="shadow bg-light m-4 p-4 rounded">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="formLookupFirstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="formLookupFirstName"
+                                    placeholder="Enter first name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <label for="formLookupLastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="formLookupLastName"
+                                    placeholder="Enter last name" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="formLookupID" class="form-label">User ID</label>
+                                <input type="text" class="form-control" id="formLookupID" placeholder="Enter ID number" aria-label="customer-id">
+                            </div>
+                            <div class="col">
+                                <label for="formLookupConfirmationNumber" class="form-label">Confirmation
+                                    Number</label>
+                                <input type="text" class="form-control" id="formLookupConfirmationNumber"
+                                    placeholder="Enter confirmation number" aria-label="confirmation-number">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <!-- <div class="col">
+                                <label for="formLookupCreditCardDigits" class="form-label">Last 4 Digits</label>
+                                <input type="text" class="form-control" id="formLookupCreditCardDigits" placeholder="Enter last 4 digits" aria-label="card-digits">
+                            </div> -->
+                            <div class="col">
+                                <label for="formLookupReservationDate" class="form-label">Reservation Date</label>
+                                <input type="text" class="form-control" id="formLookupReservationDate"
+                                    placeholder="mm/dd/yyyy" aria-label="reservation-date">
+                            </div>
+                            <div class="col">
+                                <label for="formLookupEmail" class="form-label">Email</label>
+                                <input type="text" class="form-control" id="formLookupEmail"
+                                    placeholder="Enter email address" aria-label="email">
+                            </div>
+                            
+                            <div class="col">
+                                <label for="formLookupPhoneNumber" class="form-label">Phone Number</label>
+                                <input type="text" class="form-control" id="formLookupPhoneNumber"
+                                    placeholder="(xxx)-xxx-xxxx" aria-label="phone-number">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <!-- <div class="col">
+                            <label for="formLookupDuration" class="form-label">Duration of Rental</label>
+                            <input type="text" class="form-control" id="formLookupDuration" placeholder="Enter duration of rental" aria-label="rental-duration">
+                        </div> -->
+                        </div>
+                        <div class="d-grid d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary ">Find Reservation</button>
+                        </div>
+                    </form>
+
+                    <!-- THESE ARE THE CARDS -->
+                    <div class="row mx-auto container">
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+
+                                <img class="card-img-top w-50"
+                                    src="https://i.pinimg.com/736x/ee/ae/23/eeae23049a5afa038b8405e864a1ad52.jpg"
+                                    alt="Card image cap">
+
+                                <div class="card-body bg-light">
+                                    <h4 class="card-title">
+                                        Customer Name
+                                    </h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Reservation Number</h6>
+                                    <a href="#" class="btn btn-secondary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+
+                                <img class="card-img-top w-50"
+                                    src="https://i.pinimg.com/736x/ee/ae/23/eeae23049a5afa038b8405e864a1ad52.jpg"
+                                    alt="Card image cap">
+
+                                <div class="card-body bg-light">
+                                    <h4 class="card-title">
+                                        Customer Name
+                                    </h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Reservation Number</h6>
+                                    <a href="#" class="btn btn-secondary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-3 ">
+                            <div class="card">
+
+                                <img class="card-img-top w-50"
+                                    src="https://i.pinimg.com/736x/ee/ae/23/eeae23049a5afa038b8405e864a1ad52.jpg"
+                                    alt="Card image cap">
+
+                                <div class="card-body bg-light">
+                                    <h4 class="card-title">
+                                        Customer Name
+                                    </h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Reservation Number</h6>
+                                    <a href="#" class="btn btn-secondary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+
+                                <img class="card-img-top w-50"
+                                    src="https://i.pinimg.com/736x/ee/ae/23/eeae23049a5afa038b8405e864a1ad52.jpg"
+                                    alt="Card image cap">
+
+                                <div class="card-body bg-light">
+                                    <h4 class="card-title">
+                                        Customer Name
+                                    </h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Reservation Number</h6>
+                                    <a href="#" class="btn btn-secondary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+
+                                <img class="card-img-top w-50"
+                                    src="https://i.pinimg.com/736x/ee/ae/23/eeae23049a5afa038b8405e864a1ad52.jpg"
+                                    alt="Card image cap">
+
+                                <div class="card-body bg-light">
+                                    <h4 class="card-title">
+                                        Customer Name
+                                    </h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Reservation Number</h6>
+                                    <a href="#" class="btn btn-secondary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                            <div class="card">
+
+                                <img class="card-img-top w-50"
+                                    src="https://i.pinimg.com/736x/ee/ae/23/eeae23049a5afa038b8405e864a1ad52.jpg"
+                                    alt="Card image cap">
+
+                                <div class="card-body bg-light">
+                                    <h4 class="card-title">
+                                        Customer Name
+                                    </h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Reservation Number</h6>
+                                    <a href="#" class="btn btn-secondary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 <footer class="bg-secondary-subtle pt-3 mt-5">
                     <div class="row text-center pb-3 w-100">
                         <div class="col align-self-center">
@@ -186,13 +353,6 @@
                 </footer>
             </div>
         </div>
-
-
-
-
-
-
-
         <!--Container Main end-->
 
 
